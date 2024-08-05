@@ -62,7 +62,7 @@ class AssetsControllerTest extends TestCase
         $data = $this->generatingData();
         CacheService::store('assets', $data);
         $term = $this->faker->randomElement(['btc', 'usd']);
-        $response = $this->getJson('/api/v1/client/assets/show?' . http_build_query(['term' => $term]));
+        $response = $this->getJson('/api/v1/client/assets/search?' . http_build_query(['term' => $term]));
         $response->assertStatus(Response::HTTP_OK);
         $response->assertJsonStructure([
             0 => [
