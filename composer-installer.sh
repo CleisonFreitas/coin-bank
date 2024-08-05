@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd green-coin-bank
 # Ensure the script is run from the project root directory
 if [ ! -f "composer.json" ]; then
   echo "Error: This script must be run from the project root directory."

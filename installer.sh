@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd green-coin-bank
 # Display the steps to the user
 
 # Step 1: Install Composer dependencies

@@ -16,13 +16,23 @@ This project is built using Laravel Sail version 11.19.0 and runs on PHP 8.3. It
 ### 1. Clone the repository:
 ```
 git clone https://github.com/your_user/coin-bank.git
-cd green-coin-bank
+cd coin-bank
 ```
 ### 2.Run the installer script:
+If you running a linux distribuition:
+```
+chmod +x installer.sh
+```
+then:
 ```
 ./installer.sh
 ```
 #### via composer:
+If you running a linux distribuition:
+```
+chmod +x composer-installer.sh
+```
+then:
 ```
 ./composer-installer.sh
 ```
@@ -37,7 +47,7 @@ Open your browser and go to http://localhost:81 to check if the project is runni
 
 ```
 git clone https://github.com/your_user/coin-bank.git
-cd green-coin-bank
+cd coin-bank/green-coin-bank
 ```
 
 ### 2.Install Composer Dependencies:
