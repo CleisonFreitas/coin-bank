@@ -15,7 +15,7 @@ This project is built using Laravel Sail version 11.19.0 and runs on PHP 8.3. It
 ## Setting up Dev
 ### 1. Clone the repository:
 ```
-git clone https://github.com/green-coin-bank.git
+git clone [https://github.com/green-coin-bank.git](https://github.com/your_user/coin-bank.git)
 cd green-coin-bank
 ```
 ### 2.Run the installer script:
