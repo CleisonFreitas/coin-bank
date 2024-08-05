@@ -36,7 +36,7 @@ Open your browser and go to http://localhost:81 to check if the project is runni
 ### 1.Clone the Repository:
 
 ```
-git clone https://github.com/yourusername/green-coin-bank.git
+git clone https://github.com/your_user/coin-bank.git
 cd green-coin-bank
 ```
 
