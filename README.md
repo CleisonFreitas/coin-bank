@@ -84,7 +84,7 @@ Apply database migrations:
 Open your browser and go to http://localhost:81 to check if the project is running.
 
 ## Api Reference
-To use the project, you need a CoinAPI key. Obtain one from [CoinAPI][https://www.coinapi.io/get-free-api-key?email=]. Note that the free tier allows up to 100 requests per month.
+To use the project, you need a CoinAPI key. Obtain one from [CoinAPI](https://www.coinapi.io/get-free-api-key?email=). Note that the free tier allows up to 100 requests per month.
 
 ### After get the key, set the env variable with the value of your key:
 ```
